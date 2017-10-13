@@ -1,0 +1,123 @@
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+
+    background: #937786;
+    background: -moz-radial-gradient(center, ellipse cover,  #937786 0%, #1e0e12 100%);
+    background: -webkit-radial-gradient(center, ellipse cover,  #937786 0%,#1e0e12 100%);
+    background: radial-gradient(ellipse at center,  #937786 0%,#1e0e12 100%);
+}
+
+header {
+    background-color: #f6f6f6;
+    height: 64px;
+    padding: 0 25px;
+    vertical-align: top;
+}
+    header h1 {
+        width: 162px;
+        display: inline-block;
+        margin-top: 12px;
+    }
+
+    header h2 {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        width: 735px;
+        text-align: right;
+    }
+
+p, a {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h3, h4  {
+    background-color: #c0c0c0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+
+    background: -moz-linear-gradient(top,  #cecece 1%, #666666 51%, #666666 52%, #bcbcbc 100%);
+    background: -webkit-linear-gradient(top,  #cecece 1%,#666666 51%,#666666 52%,#bcbcbc 100%);
+    background: linear-gradient(to bottom,  #cecece 1%,#666666 51%,#666666 52%,#bcbcbc 100%);
+}
+
+#bio, #projects {
+    width: 920px;
+    margin: 20px 25px;
+}
+
+    #bio img {
+        width: 400px;
+        height: auto;
+        display: inline-block;
+        border: 5px solid #c0c0c0;
+    }
+
+    #bio div {
+        width: 483px;
+        height: 273px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        background-color: #fefefe;
+    }
+
+.item {
+    width: 290px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 14px;
+    padding-bottom: 10px;
+
+    background: -moz-linear-gradient(left,  #ffffff 0%, #dacbd9 100%);
+    background: -webkit-linear-gradient(left,  #ffffff 0%,#dacbd9 100%);
+    background: linear-gradient(to right,  #ffffff 0%,#dacbd9 100%);
+}
+    .item p {
+        font-size: 14px;
+        height: 120px;
+    }
+
+.screenshot {
+    width: 290px;
+}
+
+.tech-icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px;
+}
+
+button {
+    background-color: #407d61;
+    border: 1px solid black;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 7px auto;
+    display: block;
+    -webkit-box-shadow: 2px 2px 1px #666666;
+    box-shadow: 2px 2px 1px #666666;
+}
+
+footer {
+    background-color: #f6f6f6;
+    padding: 1px;
+    text-align: center;
+}
+    footer img {
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+        vertical-align: middle;
+    }
+    footer p a {
+        margin: 0 2px;
+    }

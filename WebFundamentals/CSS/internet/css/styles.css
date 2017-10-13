@@ -1,0 +1,133 @@
+#wrapper {
+    width: 970px;
+    margin: 0 auto 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #474747;
+    font-size: 50px;
+    font-weight: lighter;
+    display: inline-block;
+    margin-bottom: 0;
+}
+    h1 span {
+        color: #26669c;
+    }
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    background: #3b78ab;
+    background: -moz-linear-gradient(top,  #3b78ab 0%, #419eea 51%, #3876ab 100%);
+    background: -webkit-linear-gradient(top,  #3b78ab 0%,#419eea 51%,#3876ab 100%);
+    background: linear-gradient(to bottom,  #3b78ab 0%,#419eea 51%,#3876ab 100%);
+    height: 35px;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+h4 {
+    color: #26669c;
+}
+
+header img {
+    width: 110px;
+    height: auto;
+    position: relative;
+    top: 32px;
+}
+
+#main {
+    background: -moz-linear-gradient(top,  rgba(229,229,229,0.65) 0%, rgba(255,255,255,0.6) 7%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top,  rgba(229,229,229,0.65) 0%,rgba(255,255,255,0.6) 7%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom,  rgba(229,229,229,0.65) 0%,rgba(255,255,255,0.6) 7%,rgba(255,255,255,0) 100%);
+    padding: 0 5px;
+
+}
+
+aside {
+    padding-top: 25px;
+    width: 185px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+    aside p {
+        margin-top: 0;
+        font-weight: bold;
+    }
+    aside p:first-of-type span{
+        color: #d72626;
+    }
+
+    aside p span:first-of-type + span {
+        color: blue;
+    }
+
+.info {
+    display: inline-block;
+    width: 680px;
+    margin: 0;
+}
+
+.client-server {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.info nav a {
+    display: inline-block;
+    width: 200px;
+}
+
+.info nav a img {
+    width: 20px;
+    height: auto;
+}
+
+.reinvent-ad img {
+    width: 80px;
+    height: auto;
+}
+
+.contact-info {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    /*text-align: right;*/
+}
+
+.contact-info img {
+    width: 30px;
+}
+
+.big3 {
+    border: 4px solid #0087dd;
+    border-bottom: none;
+}
+
+.big3 img {
+    width: 100px;
+    display: inline-block;
+    margin: 0;
+}
+
+.big3 h4, .big3 p {
+    width: 500px;
+    margin: 5px 0 5px 0;
+    padding: 0;
+}
+
+button {
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+}
