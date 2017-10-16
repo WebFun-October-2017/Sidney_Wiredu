@@ -1,0 +1,102 @@
+.wrapper {
+    font-family: monospace, Courier, sans-serif;
+    width: 970px;
+    background-color: #dddfd4;
+    color: white;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+header, footer {
+    background-color: #3fb0ac;
+    padding: 10px 15px;
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+}
+
+header img {
+    display: inline-block;
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 29px;
+    vertical-align: middle;
+}
+
+nav {
+    width: 700px;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {color: white;}
+
+.content {
+    background-color: #fae596;
+    margin:  0;
+    padding: 15px 15px 0 15px;
+}
+
+.main {
+    display: inline-block;
+    width: 680px;
+    margin: 0 10px;
+}
+    .main a {
+        color: #55dbcb;
+        text-decoration: none;
+    }
+
+aside, .main div div {
+    display: inline-block;
+    background-color: #173f43;
+    height: 170px;
+    padding: 0 15px;
+    vertical-align: top;
+}
+    aside p, .main div div p {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+.main div div h4 {
+    margin-top: 5px;
+}
+
+aside {
+    width: 200px;
+    height: auto;
+}
+
+.row1, .row2, .row3 {
+    width: 680px;
+    height: auto;
+    margin: 0 20px 30px;
+}
+    .row1 div {
+        width: 155px;
+        display: inline-block;
+        margin-right: 35px;
+        padding: 0;
+
+    }
+    .row2 div {
+        width: 270px;
+        display: inline-block;
+        margin-right: 35px;
+    }
+    .row3 div {
+        width: 90.25%;
+    }
