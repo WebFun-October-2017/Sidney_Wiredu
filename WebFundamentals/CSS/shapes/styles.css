@@ -1,0 +1,47 @@
+div {
+    margin:40px;
+    display: inline-block;
+    vertical-align: top;
+}
+#square {
+    width: 150px;
+    height: 150px;
+    background: blue;
+}
+#circle {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    border-radius: 100px;
+}
+#triangle {
+    width: 200px;
+    height: 205px;
+    margin-left: 10px;
+    margin-top: 90px;
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, blue 50%, blue 100%);
+    
+    transform: rotate(134.4deg);
+    -webkit-transform: rotate(134.4deg);
+    -moz-transform: rotate(134.4deg);
+    -o-transform: rotate(134.4deg);
+}
+#pacman {
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    background-color: blue;
+}
+.mouth {
+    background-color: white;
+    position: relative;
+    top: -15px;
+    left: 55px;
+    width: 100px;
+    height: 100px;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
